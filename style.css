@@ -162,5 +162,10 @@ header ul{
 
 .text a:hover {
     color: var(--main-color-hover);
-    transition: 0.3s;
+}
+
+.contact-form{
+    display: grid;
+    margin-top: 2.55rem;
+    grid-template-columns: repeat(2,1fr);
 }
