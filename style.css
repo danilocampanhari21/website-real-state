@@ -166,6 +166,10 @@ header ul{
     color: var(--main-color-hover);
 }
 
+.form-wrapper{
+    max-width: 32rem;
+}
+
 .contact-form{
     display: grid;
     margin-top: 2.55rem;
@@ -218,3 +222,20 @@ header ul{
     color: var(--input-text);
     font-size: 1.25rem;
 }
+
+textarea.contact-input{
+    resize: none;
+    width: 100%;
+    min-height: 150px;
+}
+
+textarea.contact-input ~ label{
+    top: 1.2rem;
+    transform: none;
+}
+
+textarea.contact-input ~ .icon{
+    top: 1.3rem;
+    transform: none;
+}
+
