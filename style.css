@@ -549,6 +549,13 @@ textarea.contact-input ~ .icon{
 
     .left{
         padding: 50px 1.5rem 0;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .form-wrapper{
+        width: 100%;
+        
     }
 
     header ul{
@@ -563,4 +570,10 @@ textarea.contact-input ~ .icon{
     .nav-link{
         margin-left: 0;
     }
+
+    .right{
+        display: none;
+    }
+
+    
 }
