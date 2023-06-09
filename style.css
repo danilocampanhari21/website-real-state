@@ -507,5 +507,19 @@ textarea.contact-input ~ .icon{
     .input-wrap.focus .contact-input {
         box-shadow: 0 0 0 3.5rem var(--input-shadow);
     }
+
+    .input-wrap.input-wrap.not-empty {
+        font-size: 0.61rem;
+    }
+
+    .contact-buttons{
+        column-gap: 0.8rem;
+        margin-top: 0.45rem;
+    }
+
+    .btn{
+        padding: 1rem 1.5rem;
+        font-size: 0.87rem;
+    }
 }
 
