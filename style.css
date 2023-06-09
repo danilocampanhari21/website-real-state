@@ -54,6 +54,16 @@ a{
     text-decoration: none;
 }
 
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: hsla(var(--main-hue), 30%, 16.5%, 80%);
+    z-index: 2;
+}
+
 header{
     position: absolute;
     width: 100%;
