@@ -555,7 +555,7 @@ textarea.contact-input ~ .icon{
 
     .form-wrapper{
         width: 100%;
-        
+        height: 1rem 0;
     }
 
     header ul{
@@ -574,6 +574,35 @@ textarea.contact-input ~ .icon{
     .right{
         display: none;
     }
-
-    
 }
+
+@media (max-width: 440px){
+    .input-wrap{
+        grid-column: span 2;
+    }
+
+    .contact-buttons{
+        grid-template-columns: 1fr;
+        row-gap: 0.5rem;
+    }
+    .contact-heading h1{
+        font-size: 1.9rem;
+        line-height: 1;
+    }
+
+    .logo img{
+        height: 25px;
+        margin-right: 0.7rem;
+    }
+
+    .logo h2{
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 412px){
+    header {
+        height: 50px;
+    }
+}
+
