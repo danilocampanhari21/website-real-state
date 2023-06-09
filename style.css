@@ -482,6 +482,16 @@ textarea.contact-input ~ .icon{
     .contact-input{
         border-radius: 17px;
         font-size: 0.87rem;
-        padding: 1.5rem 1.2rem calc(0.75rem -2px );
+        padding: 1.5rem 1.2rem calc(0.75rem -2px) 1.2rem;
+    }
+
+    .input-wrap label{
+        font-size: 0.91rem;
+        left: calc(1.2rem + 2px);
+    }
+
+    .input-wrap icon{
+        font-size: 1.1rem;
+        left: calc(1.2rem + 2px);
     }
 }
