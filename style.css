@@ -542,3 +542,25 @@ textarea.contact-input ~ .icon{
     }
 }
 
+@media (max-width: 650px){
+    header .container {
+        height: 50px;
+    }
+
+    .left{
+        padding: 50px 1.5rem 0;
+    }
+
+    header ul{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .logo{
+        margin-right: 0;
+    }
+
+    .nav-link{
+        margin-left: 0;
+    }
+}
