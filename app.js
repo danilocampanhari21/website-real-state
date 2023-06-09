@@ -9,7 +9,7 @@ toggleBtn.addEventListener("click", () => {
         el.classList.add("transition");
         setTimeout(() => {
             el.classList.remove("transition")
-        }, 1000)
+        }, 1000);
     });
 });
 
