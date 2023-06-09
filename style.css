@@ -46,6 +46,10 @@ body{
     opacity: 0.3;
 }
 
+.transition{
+    transition: 1s !important;
+}
+
 a{
     text-decoration: none;
 }
@@ -129,6 +133,14 @@ header ul{
 
 .theme-toggle .fa-sun{
     display: inline;
+}
+
+.dark .theme-toggle .fa-moon{
+    display: inline;
+}
+
+.dark .theme-toggle .fa-sun{
+    display: none;
 }
 
 .contact{
