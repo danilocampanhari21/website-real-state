@@ -521,5 +521,24 @@ textarea.contact-input ~ .icon{
         padding: 1rem 1.5rem;
         font-size: 0.87rem;
     }
+
+    .dashed-wave{
+        bottom: 55%;
+        left: -10%;
+    }
+
+    #dashed-wave{
+        stroke-width: .7px;
+        stroke-dasharray: 6;
+    }
+
+    .wave-wrap{
+        transform: translateX(-10%);
+    }
+
+    .wave-wrap svg{
+        height: calc(110% + 10px);
+        transform: translate(-5%, -50%);
+    }
 }
 
