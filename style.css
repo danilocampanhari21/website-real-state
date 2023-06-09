@@ -26,6 +26,9 @@ body{
     --bg-color: hsl(var(--main-hue), 30%, 16.5%);
     --input-bg: hsla(var(--main-hue), 22%, 50%, 11%);
     --input-bg-hover: hsla(var(--main-hue), 22%, 50%, 18.5%);
+    --nav-color: hsl(var(--main-hue), 10%, 47%);
+    --light-text-color: hsl(var(--main-hue), 12%, 46%);
+    --input-text: hsl(var(--main-hue), 10%, 55%);
 }
 
 a{
@@ -93,7 +96,7 @@ header ul{
     padding: 0 1rem;
     font-weight: 600;
     font-size: 1rem;
-    color: hsl(var(--main-hue), 17%, 79%);
+    color: var(--nav-color);
     transition: 0.3s;
 }
 
