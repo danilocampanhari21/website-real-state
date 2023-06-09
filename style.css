@@ -20,8 +20,12 @@ body{
     --input-bg: hsla(var(--main-hue), 50%, 50%, 6.5%);
     --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%);
     --input-text: #8c9aaf;
+}
 
-
+.dark{
+    --bg-color: hsl(var(--main-hue), 30%, 16.5%);
+    --input-bg: hsla(var(--main-hue), 22%, 50%, 11%);
+    --input-bg-hover: hsla(var(--main-hue), 22%, 50%, 18.5%);
 }
 
 a{
@@ -359,3 +363,19 @@ textarea.contact-input ~ .icon{
     height: 100%;
 }
 
+.dashed-wave{
+    position: absolute;
+    z-index: 3;
+    height: 130%;
+    bottom: 60%;
+    left: -28px;
+    transform: translateY(50%);
+}
+
+#dashed-wave{
+    fill: none;
+    stroke: var(--nav-color);
+    stroke-width: 1px;
+    stroke-dasharray: 6.5;
+    opacity: 0.8;
+}
