@@ -20,6 +20,7 @@ body{
     --input-bg: hsla(var(--main-hue), 50%, 50%, 6.5%);
     --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%);
     --input-text: #8c9aaf;
+    --input-shadow: hsla(var(--main-hue), 92%, 54%, 0.169%);
 }
 
 .dark{
@@ -29,6 +30,20 @@ body{
     --nav-color: hsl(var(--main-hue), 10%, 47%);
     --light-text-color: hsl(var(--main-hue), 12%, 46%);
     --input-text: hsl(var(--main-hue), 10%, 55%);
+    --input-shadow: hsla(var(--main-hue), 92%, 58%, 0.2%);
+    --text-color: #fff;
+}
+
+.dark .logo img.logo-forDark{
+    opacity: 1;
+}
+
+.dark .logo img.logo-forLight{
+    opacity: 0;
+}
+
+.dark #dashed-wave{
+    opacity: 0.3;
 }
 
 a{
@@ -207,7 +222,7 @@ header ul{
     font-weight: 600;
     font-size: 0.95rem;
     border: 2px solid transparent;
-    box-shadow: 0 0 0 0px hsla(var(--main-hue), 92%, 54%, 0.169);
+    box-shadow: 0 0 0 0px var(--input-shadow);
     transition: .3s;
 }
 
